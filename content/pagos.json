@@ -7,10 +7,6 @@
     {
       "nombre": "Transferencia",
       "descripcion": "Bancaria o digital"
-    },
-    {
-      "nombre": "Wallet",
-      "descripcion": "Pagos móviles"
     }
   ]
 }
