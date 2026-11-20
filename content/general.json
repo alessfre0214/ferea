@@ -9,25 +9,40 @@
   "estudio_titulo": "El Estudio",
   "estudio_parrafo_1": "FÉRÉA nació como un espacio íntimo para cuidar tus uñas con calma, detalle y un acabado que se siente tan bien como se ve. Cada cita está pensada para que te sientas cómoda desde que entras hasta que sales con un resultado limpio, elegante y hecho a tu medida.",
   "estudio_parrafo_2": "Trabajamos con productos de calidad, técnicas cuidadosas y un enfoque personalizado: escuchamos tu estilo, cuidamos la salud de tu uña natural y cuidamos cada detalle del diseño.",
-  "estudio_highlights": [
-    { "texto": "Atención personalizada en cada cita" },
-    { "texto": "Ambiente cálido, limpio y relajado" },
-    { "texto": "Diseños a la medida de tu estilo" }
-  ],
   "estudio_imagen": "images/studio.jpg",
+  "estudio_highlights": [
+    {
+      "texto": "Atención personalizada en cada cita"
+    },
+    {
+      "texto": "Ambiente cálido, limpio y relajado"
+    },
+    {
+      "texto": "Diseños a la medida de tu estilo"
+    }
+  ],
   "testimonios_titulo": "Lo que dicen nuestras clientas",
   "testimonios_intro": "Reseñas reales de quienes ya vivieron la experiencia FÉRÉA.",
   "pagos_titulo": "Formas de pago",
   "pagos_intro": "Aceptamos estas opciones para que reserves con tranquilidad.",
   "footer_tagline": "Cuidado y arte en cada detalle.",
-  "whatsapp_texto": "+502 XXXX-XXXX",
-  "whatsapp_url": "https://wa.me/502XXXXXXXX",
+  "whatsapp_texto": "+502 4480-2058",
+  "whatsapp_url": "https://wa.me/50244802058",
   "instagram_texto": "@ferea",
   "instagram_url": "https://instagram.com/ferea",
   "horarios": [
-    { "dias": "Lunes a Viernes", "horario": "9:00 – 19:00" },
-    { "dias": "Sábado", "horario": "9:00 – 17:00" },
-    { "dias": "Domingo", "horario": "Cerrado" }
+    {
+      "dias": "Lunes a Viernes",
+      "horario": "8:00 – 20:00"
+    },
+    {
+      "dias": "Sábado",
+      "horario": "8:00 – 20:00"
+    },
+    {
+      "dias": "Domingo",
+      "horario": "Cerrado"
+    }
   ],
   "ubicacion_linea1": "Ciudad de Guatemala",
   "ubicacion_linea2": "Zona XX",
