@@ -9,10 +9,6 @@
       "descripcion": "Bancaria o digital"
     },
     {
-      "nombre": "Tarjeta",
-      "descripcion": "Débito o crédito"
-    },
-    {
       "nombre": "Wallet",
       "descripcion": "Pagos móviles"
     }
