@@ -45,8 +45,8 @@
     }
   ],
   "ubicacion_linea1": "Ciudad de Guatemala",
-  "ubicacion_linea2": "Zona XX",
-  "mapa_url": "https://maps.google.com",
-  "mapa_texto": "Ver en mapa",
+  "ubicacion_linea2": "Zona 7",
+  "mapa_url": ".",
+  "mapa_texto": ".",
   "copyright": "© 2026 FÉRÉA Nail Studio"
 }
