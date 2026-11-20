@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FÉRÉA Nail Studio | Manicure, pedicure y diseños en Guatemala</title>
+  <meta
+    name="description"
+    content="FÉRÉA Nail Studio en Ciudad de Guatemala: manicure, pedicure, uñas acrílicas, gel semipermanente y diseños personalizados en un espacio cálido y elegante."
+  >
+  <meta name="keywords" content="nail studio, manicure, pedicure, uñas acrílicas, gel, Guatemala, FÉRÉA">
+  <meta name="author" content="FÉRÉA Nail Studio">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_GT">
+  <meta property="og:site_name" content="FÉRÉA Nail Studio">
+  <meta property="og:title" content="FÉRÉA Nail Studio | Cuidado y arte en cada detalle">
+  <meta
+    property="og:description"
+    content="Manicure, pedicure y diseños únicos en un estudio cálido y elegante en Ciudad de Guatemala. Agenda tu cita."
+  >
+  <meta property="og:image" content="images/studio.jpg">
+  <meta property="og:image:alt" content="Interior del estudio FÉRÉA Nail Studio">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FÉRÉA Nail Studio | Cuidado y arte en cada detalle">
+  <meta
+    name="twitter:description"
+    content="Manicure, pedicure y diseños únicos en un estudio cálido y elegante en Ciudad de Guatemala."
+  >
+  <meta name="twitter:image" content="images/studio.jpg">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">FÉRÉA</h1>
+
+      <button class="hamburger" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#servicios" data-nav="servicios">Servicios</a>
+        <a href="#galeria" data-nav="galeria">Galería</a>
+        <a href="#estudio" data-nav="estudio">El Estudio</a>
+        <a href="#testimonios" data-nav="testimonios">Reseñas</a>
+        <a href="#contacto" data-nav="contacto">Contacto</a>
+      </nav>
+
+      <a
+        href="https://calendar.google.com/calendar/u/0/r/eventedit"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-agenda"
+        data-agenda
+      >Agendar cita</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h2 data-field="hero_titulo">Cuidado y arte en cada detalle</h2>
+      <p data-field="hero_subtitulo">Manicure, pedicure y diseños únicos en un espacio cálido y elegante.</p>
+      <a
+        href="https://calendar.google.com/calendar/u/0/r/eventedit"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-primary"
+        data-agenda
+      >Agendar cita</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="servicios" data-section="servicios" hidden>
+    <div class="container">
+      <h2 data-field="servicios_titulo">Nuestros servicios</h2>
+      <div class="servicios-grid" data-list="servicios"></div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="galeria" data-section="galeria">
+    <div class="container">
+      <h2 data-field="galeria_titulo">Galería de trabajos</h2>
+      <div class="galeria-grid">
+        <img src="images/nails-1.jpg" alt="Manicure con diseño floral en tonos nude">
+        <img src="images/nails-2.jpg" alt="Uñas acrílicas con acabado brillante">
+        <img src="images/nails-3.jpg" alt="Diseño de uñas minimalista en tonos dorados">
+        <img src="images/studio.jpg" alt="Espacio del estudio FÉRÉA Nail Studio">
+      </div>
+    </div>
+  </section>
+
+  <!-- El Estudio -->
+  <section id="estudio" class="estudio" data-section="estudio" hidden>
+    <div class="container">
+      <div class="estudio-layout">
+        <div class="estudio-media">
+          <img data-field="estudio_imagen" src="images/studio.jpg" alt="Ambiente cálido del estudio FÉRÉA">
+        </div>
+        <div class="estudio-content">
+          <p class="estudio-eyebrow" data-field="estudio_eyebrow">Sobre nosotros</p>
+          <h2 data-field="estudio_titulo">El Estudio</h2>
+          <p data-field="estudio_parrafo_1"></p>
+          <p data-field="estudio_parrafo_2"></p>
+          <ul class="estudio-highlights" data-list="estudio_highlights"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios" data-section="testimonios" hidden>
+    <div class="container">
+      <h2 data-field="testimonios_titulo">Lo que dicen nuestras clientas</h2>
+      <p class="section-intro" data-field="testimonios_intro">Reseñas reales de quienes ya vivieron la experiencia FÉRÉA.</p>
+      <div class="testimonios-grid" data-list="testimonios"></div>
+    </div>
+  </section>
+
+  <!-- Formas de pago -->
+  <section id="pagos" class="pagos" data-section="pagos" hidden>
+    <div class="container">
+      <h2 data-field="pagos_titulo">Formas de pago</h2>
+      <p class="section-intro" data-field="pagos_intro">Aceptamos estas opciones para que reserves con tranquilidad.</p>
+      <ul class="pagos-list" data-list="pagos"></ul>
+    </div>
+  </section>
+
+  <footer id="contacto" class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-col">
+          <h3>FÉRÉA</h3>
+          <p data-field="footer_tagline">Cuidado y arte en cada detalle.</p>
+        </div>
+
+        <div class="footer-col" data-block="contacto">
+          <h4>Contacto</h4>
+          <p data-field="whatsapp_wrap">WhatsApp: <a data-field="whatsapp" href="https://wa.me/502XXXXXXXX" target="_blank" rel="noopener noreferrer">+502 XXXX-XXXX</a></p>
+          <p data-field="instagram_wrap">Instagram: <a data-field="instagram" href="https://instagram.com/ferea" target="_blank" rel="noopener noreferrer">@ferea</a></p>
+        </div>
+
+        <div class="footer-col" data-block="horarios" hidden>
+          <h4>Horarios</h4>
+          <div data-list="horarios"></div>
+        </div>
+
+        <div class="footer-col" data-block="ubicacion" hidden>
+          <h4>Ubicación</h4>
+          <p data-field="ubicacion"></p>
+          <a data-field="mapa" href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="footer-link">Ver en mapa</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p data-field="copyright">© 2026 FÉRÉA Nail Studio</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/ScrollTrigger.min.js"></script>
+  <script src="dist/main.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>

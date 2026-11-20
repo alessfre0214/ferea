@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "nombre": "Efectivo",
+      "descripcion": "Pago en el estudio"
+    },
+    {
+      "nombre": "Transferencia",
+      "descripcion": "Bancaria o digital"
+    },
+    {
+      "nombre": "Tarjeta",
+      "descripcion": "Débito o crédito"
+    },
+    {
+      "nombre": "Wallet",
+      "descripcion": "Pagos móviles"
+    }
+  ]
+}

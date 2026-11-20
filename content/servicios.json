@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "nombre": "Manicure",
+      "descripcion": "Cuidado y esmaltado de uñas de manos.",
+      "precio": "Q 120"
+    },
+    {
+      "nombre": "Pedicure",
+      "descripcion": "Cuidado completo de pies con esmaltado.",
+      "precio": "Q 150"
+    },
+    {
+      "nombre": "Uñas Acrílicas",
+      "descripcion": "Extensión o cobertura con acabado profesional.",
+      "precio": "Desde Q 280"
+    },
+    {
+      "nombre": "Gel Semipermanente",
+      "descripcion": "Esmaltado de larga duración con brillo intenso.",
+      "precio": "Q 180"
+    },
+    {
+      "nombre": "Diseño de Uñas",
+      "descripcion": "Arte personalizado según tu estilo.",
+      "precio": "Desde Q 50"
+    },
+    {
+      "nombre": "Retoque",
+      "descripcion": "Mantenimiento de uñas acrílicas o gel.",
+      "precio": "Desde Q 150"
+    }
+  ]
+}

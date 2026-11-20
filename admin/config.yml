@@ -1,0 +1,117 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Solo en localhost, con `npx decap-server` corriendo
+local_backend: true
+
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: servicios
+    label: Servicios
+    files:
+      - name: servicios
+        label: Servicios
+        file: content/servicios.json
+        fields:
+          - label: Lista de servicios
+            name: items
+            widget: list
+            summary: "{{fields.nombre}} — {{fields.precio}}"
+            fields:
+              - { label: Nombre, name: nombre, widget: string }
+              - { label: Descripción, name: descripcion, widget: text }
+              - { label: Precio, name: precio, widget: string, hint: "Ej. Q 120 o Desde Q 280" }
+
+  - name: testimonios
+    label: Reseñas / Testimonios
+    files:
+      - name: testimonios
+        label: Testimonios
+        file: content/testimonios.json
+        fields:
+          - label: Lista de reseñas
+            name: items
+            widget: list
+            summary: "{{fields.nombre}} ({{fields.estrellas}}★)"
+            fields:
+              - { label: Nombre, name: nombre, widget: string }
+              - { label: Texto, name: texto, widget: text }
+              - label: Estrellas
+                name: estrellas
+                widget: number
+                min: 1
+                max: 5
+                step: 1
+                value_type: int
+                default: 5
+
+  - name: pagos
+    label: Formas de pago
+    files:
+      - name: pagos
+        label: Formas de pago
+        file: content/pagos.json
+        fields:
+          - label: Métodos de pago
+            name: items
+            widget: list
+            summary: "{{fields.nombre}}"
+            fields:
+              - { label: Nombre, name: nombre, widget: string }
+              - { label: Descripción, name: descripcion, widget: string }
+
+  - name: general
+    label: Textos generales
+    files:
+      - name: general
+        label: Textos del sitio
+        file: content/general.json
+        fields:
+          - { label: Hero — Título, name: hero_titulo, widget: string }
+          - { label: Hero — Subtítulo, name: hero_subtitulo, widget: text }
+          - { label: Texto del botón de agenda, name: agenda_texto, widget: string }
+          - { label: URL de agenda, name: agenda_url, widget: string }
+
+          - { label: Título Servicios, name: servicios_titulo, widget: string }
+          - { label: Título Galería, name: galeria_titulo, widget: string }
+
+          - { label: Estudio — Eyebrow, name: estudio_eyebrow, widget: string }
+          - { label: Estudio — Título, name: estudio_titulo, widget: string }
+          - { label: Estudio — Párrafo 1, name: estudio_parrafo_1, widget: text }
+          - { label: Estudio — Párrafo 2, name: estudio_parrafo_2, widget: text }
+          - { label: Estudio — Imagen, name: estudio_imagen, widget: image }
+          - label: Estudio — Destacados
+            name: estudio_highlights
+            widget: list
+            summary: "{{fields.texto}}"
+            fields:
+              - { label: Texto, name: texto, widget: string }
+
+          - { label: Título Testimonios, name: testimonios_titulo, widget: string }
+          - { label: Intro Testimonios, name: testimonios_intro, widget: text }
+
+          - { label: Título Formas de pago, name: pagos_titulo, widget: string }
+          - { label: Intro Formas de pago, name: pagos_intro, widget: text }
+
+          - { label: Footer — Tagline, name: footer_tagline, widget: string }
+          - { label: WhatsApp (texto), name: whatsapp_texto, widget: string }
+          - { label: WhatsApp (URL), name: whatsapp_url, widget: string }
+          - { label: Instagram (texto), name: instagram_texto, widget: string }
+          - { label: Instagram (URL), name: instagram_url, widget: string }
+
+          - label: Horarios
+            name: horarios
+            widget: list
+            summary: "{{fields.dias}}: {{fields.horario}}"
+            fields:
+              - { label: Días, name: dias, widget: string }
+              - { label: Horario, name: horario, widget: string }
+
+          - { label: Ubicación línea 1, name: ubicacion_linea1, widget: string }
+          - { label: Ubicación línea 2, name: ubicacion_linea2, widget: string }
+          - { label: URL del mapa, name: mapa_url, widget: string }
+          - { label: Texto del enlace al mapa, name: mapa_texto, widget: string }
+          - { label: Copyright, name: copyright, widget: string }
