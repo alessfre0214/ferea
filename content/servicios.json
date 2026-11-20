@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "nombre": "Manicure",
-      "descripcion": "Cuidado y esmaltado de uñas de manos.",
-      "precio": "Q 120"
-    },
-    {
       "nombre": "Pedicure",
       "descripcion": "Cuidado completo de pies con esmaltado.",
       "precio": "Q 150"
